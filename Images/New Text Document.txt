@@ -1,0 +1,21 @@
+<div> 
+  <div class="row">
+    <div class="col">
+       <label for="admin">Active Admin:</label>
+        <select name="admin" id="admin">
+        <option value="admin1">Admin1</option>
+        <option value="admin2">Admin2</option>
+        <option value="admin3">Admin2</option>
+        <option value="admin4">Admin2</option>
+        </select> 
+    </div>
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
+
+.row{
+  display:grid;
+  grid-template-columns: auto auto;
+}
